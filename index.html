@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adam Portfolio</title>
+  <meta name="description" content="Portfolio von Adam – zukünftiger IT-Auszubildender in Deutschland." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#top">Adam</a>
+      <nav class="menu">
+        <a href="#ueber">Über mich</a>
+        <a href="#skills">Fähigkeiten</a>
+        <a href="#projekte">Projekte</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="badge">B1 Deutsch · Ausbildung 2026</p>
+          <h1>Hi, ich bin <span class="accent">Adam</span>.</h1>
+          <p class="lead">
+            Ich möchte eine <strong>Ausbildung im IT-Bereich</strong> (z. B. Fachinformatiker) in Deutschland machen
+             und suche einen Ausbildungsplatz ab <strong>Aug./Sep. 2026</strong>.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#kontakt">Kontakt</a>
+            <a class="btn" href="#projekte">Projekte ansehen</a>
+          </div>
+
+          <div class="quick">
+            <div class="quick-item">
+              <span class="quick-label">Ort</span>
+              <span class="quick-value">Marokko (flexibel deutschlandweit)</span>
+            </div>
+            <div class="quick-item">
+              <span class="quick-label">Verfügbar ab</span>
+              <span class="quick-value">08/2026</span>
+            </div>
+            <div class="quick-item">
+              <span class="quick-label">Stärke</span>
+              <span class="quick-value">Sprachen + Motivation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="card-title">Kurzprofil</h2>
+          <ul class="list">
+            <li>19 Jahre · motiviert · flexibel</li>
+            <li>Grundkenntnisse: Python, JavaScript, HTML/CSS, C++</li>
+            <li>High School (James Madison HS) · GPA 3.8</li>
+            <li>Sprachen: Arabisch, Englisch, Französisch, Hebräisch, Deutsch</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="ueber" class="section">
+      <div class="container">
+        <h2>Über mich</h2>
+        <p>
+         Ich interessiere mich sehr für IT und Programmierung und habe bereits Grundkenntnisse in Python, JavaScript und Webentwicklung. Ich lerne schnell, arbeite strukturiert und übernehme Verantwortung. Aktuell verbessere ich mein Deutsch täglich und bereite mich gezielt auf eine Ausbildung im IT-Bereich in Deutschland vor.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Fähigkeiten</h2>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>IT / Programmierung</h3>
+            <ul class="list">
+              <li>Python (Grundlagen, kleine Skripte)</li>
+              <li>JavaScript (Grundlagen)</li>
+              <li>HTML & CSS (Webseiten, Layout)</li>
+              <li>C++ (Grundlagen)</li>
+              <li>Algorithmen & logisches Denken (Grundlagen)</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Sprachen</h3>
+            <ul class="list">
+              <li>Deutsch – B1 (Ziel: B2)</li>
+              <li>Englisch – fließend (C1/C2)</li>
+               <li>Arabisch – Muttersprache</li>
+              <li>Französisch – B1</li>
+              <li>Hebräisch – B1</li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projekte" class="section">
+      <div class="container">
+        <h2>Projekte</h2>
+
+        <div class="grid-2">
+          <article class="card">
+            <h3>Portfolio-Website</h3>
+            <p class="muted">
+              Diese Website habe ich mit HTML und CSS erstellt. Ziel: klar, responsive und professionell.
+            </p>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Responsive</span>
+            </div>
+            <p class="muted small">
+              Link: (kommt nach dem Hochladen auf GitHub Pages)
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Python Mini-App (in Arbeit)</h3>
+            <p class="muted">
+              Eine kleine App zum Vokabeltraining für Deutsch (Plan: 7–10 Tage nach diesem Projekt).
+            </p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">CLI</span>
+              <span class="tag">Learning</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt" class="section alt">
+      <div class="container">
+        <h2>Kontakt</h2>
+        <p>Wenn Sie einen motivierten Auszubildenden suchen, freue ich mich über Ihre Nachricht.</p>
+
+        <div class="card">
+          <p><strong>E-Mail:</strong> <span id="email">adam.ahmed.hasanin@gmail.com
+</span></p>
+         
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted small">© <span id="year"></span> Adam · Portfolio</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
