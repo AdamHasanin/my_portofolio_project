@@ -1,28 +1,28 @@
-# Personal Portfolio Website
+# Persönliche Portfolio-Website
 
-This is my personal portfolio website built using:
+Dies ist meine persönliche Portfolio-Website, die mit folgenden Technologien erstellt wurde:
 
 - HTML
 - CSS
 - JavaScript
 
-## Project Description
+## Projektbeschreibung
 
-This website presents information about me, my skills, and my projects.
-It was created as part of my journey to become a professional software developer.
+Diese Website präsentiert Informationen über mich, meine Fähigkeiten und meine Projekte.  
+Sie wurde als Teil meines Weges entwickelt, um ein professioneller Softwareentwickler zu werden.
 
-## Features
+## Funktionen
 
-- Responsive design
-- Clean UI
-- Interactive elements using JavaScript
+- Responsives Design
+- Saubere Benutzeroberfläche
+- Interaktive Elemente mit JavaScript
 
-## Technologies Used
+## Verwendete Technologien
 
 - HTML5
 - CSS3
 - Vanilla JavaScript
 
-## Author
+## Autor
 
-Adam Hasanin
+Ahmed Hasanin
